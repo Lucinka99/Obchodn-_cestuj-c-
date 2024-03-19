@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(#6dd5ed, #2193b0); /*Lineární přechod na pozadí stránky - zeshora dolů*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    color:white;
+}
+h1{
+    margin-left:20px; /*Nastavení vnějšího okraje na levé straně*/
+}
+.cities, .route, .distance {
+    font-size: 20px; /*Velikost písma*/
+    margin-bottom: 10px; /*Nastavení vnějšího okraje na spodní straně*/
+    font-weight: bold; /*Tučné písmo*/
+}
+
+.route {
+    text-decoration: underline solid #3366cc 5px; /*Nastavení barevného podtržení - Modrá*/
+}
+
+.distance {
+    text-decoration: underline solid #af000b 5px; /*Nastavení barevného podtržení - Červená*/
+}
+
+p {
+    margin-left: 20px; /*Nastavení vnějšího okraje na levé straně*/
+}
